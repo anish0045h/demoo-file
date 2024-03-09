@@ -77,3 +77,73 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+
+
+
+
+
+To initialize a new Git repository in a directory, create a new file, add it to the staging area, and commit 
+the changes with an appropriate commit message, follow these steps:
+1. Open your terminal and navigate to the directory where you want to create the Gitrepository.
+2. Initialize a new Git repository in that directory:
+$ git init
+3. Create a new file in the directory. For example, let's create a file named "my_file.txt."You can 
+use any text editor or command-line tools to create the file.
+4. Add the newly created file to the staging area. Replace "my_file.txt" with the actualname of
+your file:
+$ git add my_file.txt
+This command stages the file for the upcoming commit.
+5. Commit the changes with an appropriate commit message. Replace "Your commitmessage
+here" with a meaningful description of your changes:
+$ git commit -m "Your commit message here"
+Your commit message should briefly describe the purpose or nature of the changes you made.For
+example:
+$ git commit -m "Add a new file called my_file.txt"
+After these steps, your changes will be committed to the Git repository with the provi
+
+2-To create a new branch named "feature-branch," switch to the "master" branch, and mergethe
+"feature-branch" into "master" in Git, follow these steps:
+1. Make sure you are in the "master" branch by switching to it:
+$ git checkout master
+2. Create a new branch named "feature-branch" and switch to it:
+$ git checkout -b feature-branch
+This command will create a new branch called "feature-branch" and switch to it.
+3. Make your changes in the "feature-branch" by adding, modifying, or deleting files asneeded.
+4. Stage and commit your changes in the "feature-branch":
+$ git add .
+$ git commit -m "Your commit message for feature-branch"
+Replace "Your commit message for feature-branch" with a descriptive commit message forthe
+changes you made in the "feature-branch."
+5. Switch back to the "master" branch:
+$ git checkout master
+6. Merge the "feature-branch" into the "master" branch:
+$ git merge feature-branch
+This command will incorporate the changes from the "feature-branch" into the "master"branch.
+Project Management with Git BCS358C
+Department of Computer Science and Engineering, Sir MVIT Page | 16
+Now, your changes from the "feature-branch" have been merged into the "master" branch.Your
+project's history will reflect the changes made in both bran
+
+3-To create a new branch named "feature-branch," switch to the "master" branch, and mergethe
+"feature-branch" into "master" in Git, follow these steps:
+1. Make sure you are in the "master" branch by switching to it:
+$ git checkout master
+2. Create a new branch named "feature-branch" and switch to it:
+$ git checkout -b feature-branch
+This command will create a new branch called "feature-branch" and switch to it.
+3. Make your changes in the "feature-branch" by adding, modifying, or deleting files asneeded.
+4. Stage and commit your changes in the "feature-branch":
+$ git add .
+$ git commit -m "Your commit message for feature-branch"
+Replace "Your commit message for feature-branch" with a descriptive commit message forthe
+changes you made in the "feature-branch."
+5. Switch back to the "master" branch:
+$ git checkout master
+6. Merge the "feature-branch" into the "master" branch:
+$ git merge feature-branch
+This command will incorporate the changes from the "feature-branch" into the "master"branch.
+Project Management with Git BCS358C
+Department of Computer Science and Engineering, Sir MVIT Page | 16
+Now, your changes from the "feature-branch" have been merged into the "master" branch.Your
+project's history will reflect the changes made in both bran
