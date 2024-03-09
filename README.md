@@ -1,3 +1,29 @@
+git clone
+ls
+mkdir repp
+touch a1.txt
+cd repp
+git init
+touch f1.txtnew file
+vl f1.txt ro write the changes
+gid add f1.txt - to track the file
+git commit -m"f1 file is created"
+git log -to check the commit
+git remote add origin"url"
+git remote -v -to check if i created a remote rep or not
+git push -u origin 
+ 2
+git branch 
+git branch a1
+git checkout a1
+git branch -d "branch name u want to delete"
+git merge
+
+
+
+
+
+
 # demoo-file
 lets try
 Git Commands
